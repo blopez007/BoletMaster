@@ -9,6 +9,12 @@
       font-family: 'Times New Roman';
     }
 
+    .total{
+      font-size: 12px;
+      font-family: 'Times New Roman';
+      font-weight: bold;
+    }
+
     td,
     th,
     tr,
@@ -42,14 +48,15 @@
       align-content: center;
     }
 
+
     .producto1 {
       font-size: 15px;
       font-family: 'Times New Roman';
     }
 
     .ticket {
-      width: 205px;
-      max-width: 505px;
+      width: 505px;
+      max-width: 500px;
     }
 
     img {
@@ -70,11 +77,10 @@
               alt="Logotipo"
             />
             <p class="centrado">
-              Gracias por su Preferencia Boletmaster <br />EL SALVADOR <br> <br>
-              <br />FECHA: {{$fecha_compra}} <br />HORA:{{$hora_compra}}  <br />
-             <br />TICKET:# {{$id}}
+              Gracias por su Preferencia Boletmaster <br />EL SALVADOR 
+              <p class="centrado">FECHA: {{$fecha_compra}}</p> <p class="centrado">HORA:{{$hora_compra}}</p> 
             </p>
-            <br />FECHA: {{$fecha_evento}}<br />HORA: {{$hora_evento}}  <br />Evento:{{$evento}}
+            <p class="centrado">FECHA: {{$fecha_evento}}</p><p class="centrado">HORA: {{$hora_evento}}</p> <p class="centrado">Evento:{{$evento}}</p>
             <table>
               <thead>
                 <tr>
@@ -87,8 +93,8 @@
               <tbody>
               @foreach ($entradas as $entrada)
         <tr>
-          <td class="text--center">{{$entrada->entrada->tipo_entrada}}</td>
-          <td class="text--center">{{$entrada->cantidad_comprada}}</td>
+          <td class="textcenter">{{$entrada->entrada->tipo_entrada}}</td>
+          <td class="textcenter">{{$entrada->cantidad_comprada}}</td>
           <td class="textcenter">${{$entrada->entrada->precio}}</td>
           <td class="textjustify">${{$entrada->precio_total}}</td>
 
@@ -97,7 +103,7 @@
       </tbody>
 
     </table>
-    <span class="cantidad"> Total ${{$monto_compra}}</span>
+    <span class="cantidad total"> Total ${{$monto_compra}}</span>
     <br>
     <p class="centrado">
       ¡GRACIAS POR SU COMPRA! <br />Precio Iva Incluido <br />15 dias

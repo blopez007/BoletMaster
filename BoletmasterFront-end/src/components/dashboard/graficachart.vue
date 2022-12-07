@@ -1,10 +1,8 @@
 <template>
     <v-card
     elevation="12"
-    outlined
-    shaped
-    me="-14">
-    <v-card-title>Grafica de lineas de cantidad vendida de dinero mensual</v-card-title>
+    >
+    <v-card-title>Grafica de Venta Diaria</v-card-title>
         <div><canvas id="grafica"></canvas></div>
     </v-card>
 </template>
@@ -20,7 +18,7 @@ export default {
     const response = await HTTP.get("/dashboard/ventasdiarias")
 
     const grafica = new Chart(ctx, {
-    type: 'line',
+    type: 'bar',
     data: {
         labels: response.data.data.labels,
         datasets: response.data.data.datasets

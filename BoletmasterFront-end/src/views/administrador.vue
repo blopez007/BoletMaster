@@ -89,6 +89,8 @@
             <div>
               <Grafica1chart></Grafica1chart>
             </div>
+          </v-col>
+          <v-col>
             <br />
             <br />
             <div>
@@ -96,26 +98,6 @@
             </div>
             <br />
             <br />
-            <div>
-              <grafica2chart></grafica2chart>
-            </div>
-          </v-col>
-          <v-col>
-            <br />
-            <br />
-            <div>
-              <Grafica3chart></Grafica3chart>
-            </div>
-            <br />
-            <br />
-            <div>
-              <Grafica4chart></Grafica4chart>
-            </div>
-            <br />
-            <br />
-            <div>
-              <Grafica5chart></Grafica5chart>
-            </div>
           </v-col>
         </v-row>
       </v-container>
@@ -127,10 +109,6 @@ import HTTP from "../utils/HTTP";
 import admineventos from "../components/administracion_eventos.vue";
 import Graficachart from "../components/dashboard/graficachart.vue";
 import Grafica1chart from "../components/dashboard/grafica1chart.vue";
-import grafica2chart from "../components/dashboard/grafica2chart.vue";
-import Grafica3chart from "../components/dashboard/grafica3chart.vue";
-import Grafica4chart from "../components/dashboard/grafica4chart.vue";
-import Grafica5chart from "../components/dashboard/grafica5chart.vue";
 import { mapMutations, mapState } from "vuex";
 
 export default {
@@ -213,10 +191,6 @@ export default {
     admineventos,
     Grafica1chart,
     Graficachart,
-    Grafica3chart,
-    grafica2chart,
-    Grafica4chart,
-    Grafica5chart,
   },
   computed: {
   ...mapState(["user"]),

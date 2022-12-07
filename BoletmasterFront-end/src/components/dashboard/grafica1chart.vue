@@ -1,7 +1,7 @@
 <template>
     <v-card
     elevation="12">
-    <v-card-title>Grafica de lineas de cantidad vendida de dinero mensual</v-card-title>
+    <v-card-title>Grafica de Venta Total de Dinero por Eventos.</v-card-title>
         <div><canvas id="grafica1"></canvas></div>
 </v-card>
 </template>
