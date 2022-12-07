@@ -26,7 +26,7 @@
           <br>
           <br>
           <!-- Se utiliza un iframe para poder insertar el video tutorial -->
-          <iframe class="mx-16" width="950" height="480" src="https://www.youtube.com/embed/gNn9NxZH2Vo"
+          <iframe class="mx-16" width="950" height="480" src="https://www.youtube.com/embed/cDvd4JySWjI"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
