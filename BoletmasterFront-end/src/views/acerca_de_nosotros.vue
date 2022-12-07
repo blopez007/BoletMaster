@@ -41,14 +41,11 @@
           <p class="texto mx-16">
             Lograr una preferencia por parte de los usuarios y con ello llegar a ser una de las empresas más reconocidas.
           </p>
-            <br>
           <br>
           <br>
-          </p>
+          <br>
           <br>
         </div>
-        <br>
-        <br>
       </v-card>
     </v-row>
   </body>
@@ -69,7 +66,7 @@
 .titulo{
   color: #FFF;
   margin: 0 auto;
-  margin-left: 160px;
+  margin-left: 120px;
   margin-top: 60px;
   text-align: left;
   font-family: 'Dosis', sans-serif;

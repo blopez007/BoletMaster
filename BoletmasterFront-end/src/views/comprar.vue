@@ -24,7 +24,7 @@
                   <v-divider></v-divider>
 
                   <v-stepper-step class="subtitulo1" color="#1A374D" step="3">
-                    Confirmacion de pago
+                    Confirmación de pago
                   </v-stepper-step>
                 </v-stepper-header>
 
@@ -64,7 +64,7 @@
                     </v-container>
 
                     <button class="boton seis5" @click="siguiente()">
-                      <span>Siguiente</span>
+                      <span> Siguiente </span>
                       <svg>
                         <rect x="0" y="0" fill="none"></rect>
                       </svg>
@@ -74,7 +74,7 @@
                   </v-stepper-content>
 
                   <v-stepper-content class="text-center subtitulo" step="2">
-                    Informacion de pago.
+                    Información de pago.
                     <v-container>
                       <v-text-field disabled outlined v-model="nombre" label="Nombre"
                         prepend-icon="mdi-card-account-details-outline"></v-text-field>
@@ -495,7 +495,7 @@ export default {
 .boton.seis5 {
   background: #1a374d;
   color: #fff;
-  margin-left: 730px;
+  margin-left: 675px;
 }
 
 .boton.seis5 svg {

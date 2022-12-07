@@ -33,11 +33,9 @@
           </iframe>
           <br>
           <br>
+          <br>
+          <br>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
       </v-card>
     </v-row>
   </body>
@@ -53,7 +51,7 @@
 .titulo{
   color: #FFF;
   margin: 0 auto;
-  margin-left: 160px;
+  margin-left: 120px;
   margin-top: 60px;
   text-align: left;
   font-family: 'Dosis', sans-serif;

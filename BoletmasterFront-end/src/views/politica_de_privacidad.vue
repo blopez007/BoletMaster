@@ -105,7 +105,7 @@
 .titulo{
   color: #FFF;
   margin: 0 auto;
-  margin-left: 165px;
+  margin-left: 120px;
   margin-top: 60px;
   text-align: left;
   font-family: 'Dosis', sans-serif;
